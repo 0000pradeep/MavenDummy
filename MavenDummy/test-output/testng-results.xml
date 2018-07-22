@@ -2,16 +2,32 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="63" started-at="2018-07-22T11:24:52Z" finished-at="2018-07-22T11:24:52Z">
+  <suite name="Default suite" duration-ms="73" started-at="2018-07-22T15:04:35Z" finished-at="2018-07-22T15:04:35Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="63" started-at="2018-07-22T11:24:52Z" finished-at="2018-07-22T11:24:52Z">
+    <test name="Default test" duration-ms="73" started-at="2018-07-22T15:04:35Z" finished-at="2018-07-22T15:04:35Z">
       <class name="MavenDummy.test1">
-        <test-method status="PASS" signature="test()[pri:0, instance:MavenDummy.test1@548b7f67]" name="test" duration-ms="21" started-at="2018-07-22T16:54:52Z" finished-at="2018-07-22T16:54:52Z">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:MavenDummy.test1@7dc7cbad]" name="beforetest" is-config="true" duration-ms="26" started-at="2018-07-22T20:34:35Z" finished-at="2018-07-22T20:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforetest1()[pri:0, instance:MavenDummy.test1@7dc7cbad]" name="beforetest1" is-config="true" duration-ms="0" started-at="2018-07-22T20:34:35Z" finished-at="2018-07-22T20:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest1 -->
+        <test-method status="PASS" signature="beforetest2()[pri:0, instance:MavenDummy.test1@7dc7cbad]" name="beforetest2" is-config="true" duration-ms="1" started-at="2018-07-22T20:34:35Z" finished-at="2018-07-22T20:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest2 -->
+        <test-method status="PASS" signature="test()[pri:0, instance:MavenDummy.test1@7dc7cbad]" name="test" duration-ms="16" started-at="2018-07-22T20:34:35Z" finished-at="2018-07-22T20:34:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
+        <test-method status="PASS" signature="Aftertest()[pri:0, instance:MavenDummy.test1@7dc7cbad]" name="Aftertest" is-config="true" duration-ms="0" started-at="2018-07-22T20:34:35Z" finished-at="2018-07-22T20:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftertest -->
       </class> <!-- MavenDummy.test1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
