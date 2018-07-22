@@ -1,15 +1,34 @@
 package MavenDummy;
 
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 
-public class test1 {
+
+class test2 {
+	
+	@BeforeMethod
+	public void beforetest2(){
+		System.out.println("before method of top parent class");
+	}	
+}
+
+class test extends test2{
+	
+	@BeforeMethod
+	public void beforetest1(){
+		System.out.println("before method of parent class");
+	}	
+}
+
+
+public class test1 extends test {
  
-	@BeforeTest
+	@BeforeMethod
 	  public void beforetest() {
-			System.out.println("Before Test called");
+			System.out.println("Before method of sub class");
 	  }
 	@Test
   public void test() {
