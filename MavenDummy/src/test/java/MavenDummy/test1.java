@@ -6,8 +6,15 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 
+class test3 {
+	
+	@BeforeMethod
+	public void beforetest3(){
+		System.out.println("before method of 3rd  parent class");
+	}	
+}
 
-class test2 {
+class test2 extends test3{
 	
 	@BeforeMethod
 	public void beforetest2(){
