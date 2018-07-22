@@ -7,6 +7,6 @@ public class test1 {
  
 	@Test
   public void test() {
-		System.out.println("Test method called");
+		System.out.println("Test called");
   }
 }
