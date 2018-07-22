@@ -4,7 +4,16 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-class test4 {
+class test5 {
+	
+	@BeforeMethod
+	public void beforetest5(){
+		System.out.println("before method of 5th  parent class");
+		
+	}	
+}
+
+class test4 extends test5 {
 	
 	@BeforeMethod
 	public void beforetest4(){
