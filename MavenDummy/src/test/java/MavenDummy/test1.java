@@ -13,7 +13,7 @@ class test4 {
 		
 	}	
 }
-class test3 {
+class test3 extends test4 {
 	
 	@BeforeMethod
 	public void beforetest3(){
