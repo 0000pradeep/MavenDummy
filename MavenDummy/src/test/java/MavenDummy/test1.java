@@ -5,13 +5,20 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
-
+class test4 {
+	
+	@BeforeMethod
+	public void beforetest4(){
+		System.out.println("before method of 4th  parent class");
+		
+	}	
+}
 class test3 {
 	
 	@BeforeMethod
 	public void beforetest3(){
 		System.out.println("before method of 3rd  parent class");
-		System.out.println("changes for child branch");
+		
 	}	
 }
 
